@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
 :root{
-    --primary-color: #441ED4;
+    --primary-color: #6718A8;
     --off-white: #f3f3f6;
     --dark-gray: #687288;
 }
+
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -41,12 +42,16 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: #ffffff;
+    display: block;
+    width: 40%;
+    text-align: center;
 }
 
 .link-secondary{
     /* background-color: var(--primary-color); */
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    
     /* color: #ffffff; */
 }
 
@@ -142,4 +147,16 @@ section{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.link-a{
+    display: block;
+    width: 25%;
+    text-align: center;
+}
+
+.link-a:hover{
+    background-color: #CAD5E2;
+    color: #8D3DAF;
+    text-decoration: none;
 }
